@@ -8,7 +8,7 @@ import TheNavigation from './components/TheNavigation.vue'
     <header class="md:container md:mx-auto p-4 flex flex-col items-center grow-1">
       <TheNavigation />
     </header>
-    <main class="md:container md:mx-auto p-4 flex flex-col items-center grow-1 h-screen w-screen">
+    <main class="md:container md:mx-auto p-4 flex flex-col items-center grow-1">
       <RouterView />
     </main>
   </div>
