@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import CountryItem from '../components/CountryItem.vue'
 import LoadingSpinnerOverlay from '../components/LoadingSpinnerOverlay.vue'
-import { useCountriesStore } from '../store/countries'
+import { useCountriesStore } from '../stores/countries'
 import { computed, ref } from 'vue'
 
 const countries = useCountriesStore()
