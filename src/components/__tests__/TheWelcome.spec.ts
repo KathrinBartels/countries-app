@@ -1,10 +1,10 @@
-import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
+import { describe, expect, it } from 'vitest'
 
 import TheWelcome from '../TheWelcome.vue'
 
 describe('TheWelcome', () => {
-  it('renders a welcome message', () => {
+  it('renders the welcome page', () => {
     const wrapper = mount(TheWelcome)
 
     const h1 = wrapper.find('.h1')
@@ -13,7 +13,7 @@ describe('TheWelcome', () => {
     const p = wrapper.find('p')
     expect(p.text()).toContain('This is a simple app to show you some countries.')
 
-    const link = wrapper.find('a')
-    expect(link.text()).toContain('To countries')
+    const button = wrapper.find('.btn-primary')
+    expect(button.text()).toContain('Explore all countries')
   })
 })
