@@ -1,6 +1,6 @@
 # Countries
 
-See all the countries in the world including their country code and flag
+See all the countries in the world including their country code and flag.
 
 ## Key Features
 
